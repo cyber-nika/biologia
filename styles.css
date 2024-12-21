@@ -1,0 +1,74 @@
+/* общий стиль */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('anatomy.jpg'); /* Your image file path here */
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    color: #333; /* Text color for general readability */
+}
+
+/* хедер */
+header {
+    background-color: rgba(51, 51, 51, 0.7); /* Dark transparent overlay for readability */
+    padding: 10px;
+    color: #fff;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* секции */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Light transparent background for content */
+    border-radius: 8px;
+}
+
+section h1, section h2 {
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* стиль для списка */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Футер */
+footer {
+    background-color: rgba(51, 51, 51, 0.7); /* Dark transparent overlay */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
